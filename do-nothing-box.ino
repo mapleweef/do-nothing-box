@@ -31,10 +31,10 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  randNum = random(1001);//generates a random number from 0 to 1000 cuz this this is based on c++ 
+  randNum = random(1001);//generates a random number from 0 to 1000 because c++ 
   leave = false;
   
-  if (randNum <= threshold){ //button has been replaced with light orange cable becasue button is garbage. Code works tho. 
+  if (randNum <= threshold){ 
     threshold = 0;
     while(1){
       digitalWrite(buzzer,HIGH);
